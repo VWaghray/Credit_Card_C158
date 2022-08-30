@@ -20,7 +20,6 @@ def authentication():
         input_value = int(input_box.get())
         messagebox.showinfo("Alert","Credit card accepted")
     except(ValueError):
-        input_value1 = str(input_box.get())
         messagebox.showinfo("Error","Credit card not accepted. Please enter valid Pin Code")
         
 
